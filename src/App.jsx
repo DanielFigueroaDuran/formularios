@@ -1,13 +1,14 @@
 import './App.css'
-import Formulario from './components/formulario/Formulario'
+import UserForm from './components/form/UserForm'
+
 
 function App() {
- 
-  return (
-    <>
-     <Formulario/>
-    </>
-  )
+
+    return (
+        <>
+            <UserForm />
+        </>
+    )
 }
 
 export default App
